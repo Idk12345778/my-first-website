@@ -5,6 +5,10 @@ function increase(){
 }
 
 function decrease(){
-    count = count-1;
-    document.getElementById("counter").innerText = count;
+    if(count >0){
+        count = count-1;
+        document.getElementById("counter").innerText = count;
+
+    }
+    
 }
