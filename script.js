@@ -4,7 +4,7 @@ function updatedisplay(){
     const counterElement = document.getElementById("counter");
     counterElement.innerText = count;
 
-    if(counterElement===0){
+    if(count===0){
         counterElement.style.color = "red";
     }
     else{
