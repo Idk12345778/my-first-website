@@ -24,3 +24,6 @@ function decrease(){
     updatedisplay();
     
 }
+
+document.getElementById("increaseBtn").addEventListener("click",increase);
+document.getElementById("decreaseBtn").addEventListener("click",decrease);
