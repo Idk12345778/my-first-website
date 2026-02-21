@@ -1,3 +1,10 @@
-function changeText(){
-    document.querySelector("h1").innerText = "I am bulding my future step by step.";
+let count = 0;
+function increase(){
+    count = count +1;
+    document.getElementById("counter").innerText = count;
+}
+
+function decrease(){
+    count = count-1;
+    document.getElementById("count").InnerText = count;
 }
