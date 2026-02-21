@@ -6,5 +6,5 @@ function increase(){
 
 function decrease(){
     count = count-1;
-    document.getElementById("counter").InnerText = count;
+    document.getElementById("counter").innerText = count;
 }
